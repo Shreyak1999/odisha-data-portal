@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Mortality</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html" class="active"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            Below Replacement, But Not Beyond Risk: The <br> Silent Crisis of Child Mortality in Odisha
+        </h1>
+        <p class="para">
+            Child health is one of the most important aspects for understanding the current health conditions and 
+            future health status of the population in the state. The important indicators to understand this aspect
+            include Infant Mortality Rate (IMR), Under-five Mortality Rate (U5MR), nutritional status, causes of 
+            death, and prevalence of chronic diseases in children, among others.  <br>
+            Despite achieving replacement-level fertility since 2013 (SRS- 2014) and a declining trend in
+            child mortality, Odisha still has relatively high infant mortality rates, implying more severe 
+            conditions than underdeveloped regions with relatively high fertility and high mortality rates.
+        </p>
+        <h5 class = "chart-title" style="text-align: left; font-size: 1.1rem; margin-left: 24%; margin-bottom: 1%;">
+            Trends in IMR & U5MR
+        </h5>
+        <!--Flourish Item-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/23843127">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/23843127/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+        <style>
+            .flourish-embed-container {
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #f8fafc;
+            padding: 0;
+            
+            overflow: hidden;
+            }
+            .flourish-embed {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #fff;
+            border-radius: 12px;
+            border: none;
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+        </style>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        
+        <p style="text-align: left; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%; margin-left: 24%;">
+            Source: NFHS-4,5
+
+        </p>
+        <p class="para">
+            Odisha is facing a unique population challenge: while families are choosing to have fewer children 
+            (a declining birth rate), unfortunately, too many babies and young children are still dying before 
+            their fifth birthday. <br>
+            Normally, having fewer children is a sign of progress, leading to slower population growth and 
+            potentially a stronger workforce in the future. However, when child deaths remain high, it means that 
+            even though there are fewer births, the children who are born aren't surviving at the rate they should. 
+            This points to serious issues in our healthcare system, particularly regarding the quality of care for 
+            mothers and children, and access to good nutrition, especially in villages and tribal areas.<br>
+            This situation creates a tough problem for Odisha's future. If fewer children are being born and a 
+            significant number of them don't survive to adulthood, our future workforce could shrink. This might 
+            slow down economic growth. On a personal level, families face immense emotional and financial stress 
+            from losing children. To truly benefit from having smaller families and to build a strong future, 
+            Odisha must urgently improve child health services and reduce child mortality. This will ensure that 
+            every child born has the chance to thrive, contributing to a healthier and more prosperous state.
+        </p>
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>

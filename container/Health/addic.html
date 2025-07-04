@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substance Addiction</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html" class="active"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            Addiction & Abuse: Undermining Odisha’s Human <br> Capital
+        </h1>
+        <p class="para">
+            Despite the Odisha government's 2013 ban on the sale and manufacture of tobacco, the latest family 
+            health survey reveals that half of the state's men and a quarter of its women still consume it. 
+            About 51.6% of men aged 15 and older in the state use tobacco, compared to the national average of 
+            38%. Among women, 26% in Odisha use tobacco, significantly higher than the national average of 8.9%. 
+            Rural areas show even higher consumption rates. While tobacco use among men has declined from 55.9% 
+            in 2015-2016 to 51.6% in 2019-2021, it has increased among women from 17.3% to 26% during the same 
+            period. Medical research consistently links tobacco consumption to higher morbidity and mortality 
+            rates. With a substantial portion of the population using tobacco, oral cancer has become a major 
+            health crisis in the state, claiming over 10,000 lives annually. <br><br>
+            Excessive substance abuse in Odisha has far-reaching consequences, including domestic violence, 
+            crime, and reduced engagement in productive activities, all of which deteriorate the quality of 
+            human capital and hinder efforts to harness the state's demographic dividend. According to NFHS-5, 
+            about 31% of women aged 18-49 in Odisha are victims of domestic abuse, with nearly 32% experiencing 
+            either sexual or physical abuse and approximately 4% experiencing both. Contributing factors 
+            include the wife being the family's breadwinner, the husband's alcohol abuse, and his illiteracy. 
+            The prevalence of domestic abuse has severe economic implications, as it discourages women from 
+            joining the workforce, leading to underutilized labour and slowing overall development. Addressing 
+            these issues is crucial for improving human capital quality and ensuring the state can fully 
+            leverage its demographic resources.
+            
+        </p>
+  
+       
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>

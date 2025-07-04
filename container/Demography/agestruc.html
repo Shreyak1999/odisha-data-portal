@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Structures</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html" class="active"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            Odisha’s Age Shift: Turning Demographic Change <br> into Opportunity
+        </h1>
+        <p class="para">
+            Age structure plays a vital role in shaping a population's development path. Influenced by fertility, 
+            mortality, and migration, it reflects the demographic and socio-economic evolution of a society. 
+            As the population ages or becomes younger, it impacts workforce availability, dependency ratios, 
+            and public service needs. Shifts in age structure can offer economic opportunities, like a demographic
+            dividend, or pose challenges, such as rising old-age dependency. Recognizing this, global agendas like 
+            the UN’s 2030 Sustainable Development Goals stress its relevance for planning and inclusive growth. <br>
+            The state’s population can be divided into four broad age groups, each with distinct needs and impacts 
+            on education, healthcare, and the economy. Children (Aged below 15 years) need strong foundations in 
+            education and healthcare. Youth (aged 15-34 years) drive economic growth and social change with 
+            research and innovation, requiring access to education, skills, and jobs. The working-age group 
+            (aged 15-59 years) sustains the economy and social systems and the elderly (aged 60+ years) create
+            rising demands for healthcare, social security, and elder care.
+        </p>
+        <h5 class = "chart-title" style="text-align: left; font-size: 1.1rem; margin-left: 24%; margin-bottom: 1%;">
+            Age-wise Population Share in Odisha (in %)
+        </h5>
+        <!--Flourish Item-->>
+        <div class="flourish-embed flourish-chart" data-src="visualisation/23838794">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/23838794/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+        <style>
+            .flourish-embed-container {
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #f8fafc;
+            padding: 0;
+            
+            overflow: hidden;
+            }
+            .flourish-embed {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #fff;
+            border-radius: 12px;
+            border: none;
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+        </style>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        
+        <p style="text-align: center; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%;">
+            Source: Census of India 2011, Population Projection for Odisha using Bayesian approach, 
+            DIU, 2021-36
+        </p>
+        <p class="para">
+            The proportion of the child population in the state is projected to decrease significantly, 
+            dropping from 28.9% in 2011 to 20.6% by 2036—a reduction of over 1.4 million children over 25 years, 
+            which stresses upon rethink the existing structure and distribution of the education system. 
+            Similarly, the youth population is expected to shrink from 34.4% to 28.5%, a decline of 6 percentage 
+            points during the same period. In contrast, the working-age population will see a modest increase, 
+            rising from 61.5% to 63.1%, which presents a favorable demographic dividend for the state. 
+            This demographic will peak at 65% in 2031, after which it is expected to decline, highlighting 
+            the urgent need to maximize the potential of this economically productive group. <br>
+            Meanwhile, the elderly population is projected to grow substantially, increasing by 105% 
+            from 3.9 million in 2011 to 8.2 million by 2036, representing nearly 16% of the total population. 
+            Over these 25 years, the state will experience a net population increase of 9.7 million, with 71% 
+            of this growth in the working-age group, 43% among the elderly, and a reduction of 14% in the child 
+            population. This demographic shift seems favorable for the economic growth of the state, as it lowers
+            the overall age dependency ratio among the working-age population from 62.3% to 57.6%. 
+            Although the dependency ratio due to ageing is increasing, the sharp decline in young-age 
+            dependency helps reduce the overall financial and social burden on working-age individuals who 
+            support dependents. This generally allows for greater economic productivity, increased savings, 
+            and more resources available for investment in development, healthcare, and social services.
+        </p>
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>

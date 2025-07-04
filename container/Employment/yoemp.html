@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Employment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html" class="active"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            The Youth (Age 15-29) Employment Paradox: High <br>Aspirations, Higher Unemployment in Odisha
+        </h1>
+        <p class="para">
+            While the WFPR decreased by 15 percent between 1993–94 and 2022-23 (from 56.6 percent to 41.5 percent), 
+            unemployment is around three times higher (14.2 percent) among youth compared to the working-age group (4.2 percent).
+            <br>
+            The data from 2022-23 shows a persistent issue of high unemployment rates among the youth, with male unemployment at 
+            17.1% and female unemployment at 9.1%, significantly higher than the national averages. This trend is particularly evident 
+            in urban areas, where female unemployment in Odisha reached 24.5%, further highlighting the difficulties faced by young
+            women in accessing formal employment. These challenges are exacerbated by a mismatch between the skills acquired by the 
+            youth and the demands of the labour market, leading to underemployment, especially in urban regions where opportunities in 
+            agriculture and informal sectors are limited compared to rural areas. 
+            
+        </p>
+        <h5 class = "chart-title" style="text-align: left; font-size: 1.1rem; margin-left: 24%; margin-bottom: 1%;">
+            Share of Youth (age-15-29) WFPR & UR in Odisha (in %)
+        </h5>
+        <!-- Flourish Item -->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/23915712">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/23915712/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+
+            <p style="text-align: center; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%;">
+            Source: Computed from unit-level datasets of different NSSO-EUS (1993-94 & 2011-12) & PLFS (2017-18, 2019-20 & 2022-23) <br>
+            </p>
+        <style>
+            .flourish-embed-container {
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #f8fafc;
+            padding: 0;
+            
+            overflow: hidden;
+            }
+            .flourish-embed {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #fff;
+            border-radius: 12px;
+            border: none;
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+        </style>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+
+
+        </p>
+        <p class="para">
+            The coastal regions of Odisha, where development and income levels are higher, show particularly high 
+            unemployment rates, with youth unemployment reaching 28.8% in 2022-23, compared to 9.3% in the northern 
+            regions. This reflects a growing preference for quality employment in developed areas, while underdeveloped 
+            regions like the southern part of the state continue to rely on low-skill, agriculture-based employment. 
+            These disparities point to the need for targeted regional interventions, especially in education and skill 
+            development, to address the challenges posed by the evolving population structure. If left unaddressed, 
+            high unemployment rates, particularly among the youth, could lead to long-term underemployment and economic 
+            stagnation in the state, undermining the potential benefits of a large working-age population.<br>
+            It is important to note that there is a significant incidence of skill mismatch in Odisha, 
+            particularly affecting the employability of its youth. Despite improvements in education levels, 
+            the unemployment rate among educated individuals remains high, especially among females. This 
+            suggests that the skills acquired through formal education often do not align with the demands of the labour market. 
+            The shortage of skilled manpower and technical know-how, particularly in modern industries and services, exacerbates 
+            the issue. While vocational education and training (VET) have been shown to increase labour force participation and 
+            reduce unemployment, the reach and effectiveness of these programs remain limited. Those with vocational education 
+            exhibit lower unemployment rates and higher labour force participation, but overall, the lack of adequate vocational 
+            training opportunities leaves a large proportion of youth unprepared for the job market. This gap between educational 
+            attainment and marketable skills reflects a critical need for the state to expand and improve VET programs, ensuring 
+            they are accessible, relevant, and aligned with current and future labour market demands.
+        </p>
+
+        <table style="margin-left: 24%; width: 52.1%; border-collapse: collapse; align-items: center;">
+            <caption style="caption-side: top; font-weight: bold; padding: 12px; background: #005a9e; color: #fff; border-radius: 8px 8px 0 0;">
+                LFPR and Unemployment Rate among the Youth in Odisha
+            </caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" class="tab-element" style="border:1px solid #bbb;"></th>
+                    <th colspan="2" class="tab-element" style="border:1px solid #bbb;">Total</th>
+                    <th colspan="2" class="tab-element" style="border:1px solid #bbb;">Rural</th>
+                    <th colspan="2" class="tab-element" style="border:1px solid #bbb;">Urban</th>
+                </tr>
+                <tr>
+                    <th class="tab-element" style="border:1px solid #bbb;">Male</th>
+                    <th class="tab-element" style="border:1px solid #bbb;">Female</th>
+                    <th class="tab-element" style="border:1px solid #bbb;">Male</th>
+                    <th class="tab-element" style="border:1px solid #bbb;">Female</th>
+                    <th class="tab-element" style="border:1px solid #bbb;">Male</th>
+                    <th class="tab-element" style="border:1px solid #bbb;">Female</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold; background-color: #cae6fc; text-align: center;" colspan="7">LFPR</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">1993-94</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">76.8</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">42.5</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">79.5</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">46.2</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">63.5</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">20.0</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">2011-12</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">74.4</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">27.9</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">76.4</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">30.4</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">66.1</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">16.7</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">2017-18</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">62.2</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">16.2</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">64.0</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">16.4</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">55.3</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">15.2</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">2022-23</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">61.7</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">35.3</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">64.0</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">38.5</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">53.5</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">21.9</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold; background-color: #cae6fc; text-align: center;" colspan="7">Unemployment Rate</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">1993-94</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">6.0</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">2.7</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">4.3</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">1.8</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">16.8</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">15.9</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">2011-12</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">6.9</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">5.6</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">6.2</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">5.7</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">10.3</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">4.9</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">2017-18</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">24.7</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">19.8</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">25.3</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">16.7</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">21.9</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">35.3</td>
+                </tr>
+                <tr>
+                    <td class="tab-element" style="border:1px solid #bbb; font-weight:bold;">2022-23</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">17.1</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">9.1</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">16.3</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">7.0</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">20.8</td>
+                    <td class="tab-element" style="border:1px solid #bbb; text-align:center;">24.5</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align: center; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%;">
+            Source: Computed from unit-level datasets of different NSSO-EUS (1993-94 & 2011-12) & PLFS (2017-18, 2019-20 & 2022-23) <br>
+        </p>
+        
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes & Hypertension</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html" class="active"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            Hypertension and Diabetes on the Rise: Odisha’s <br> Cross-Generational Health Crisis
+        </h1>
+        <p class="para">
+            The evolving disease landscape, coupled with shifting demographics—especially the growing 
+            proportion of elderly individuals—presents substantial challenges. Non-communicable diseases (NCDs)
+            such as hypertension and diabetes are widespread among millions of elderly citizens, who require 
+            long-term management and face an increased risk of complications. Alarmingly, these diseases are also 
+            affecting younger age groups, further increasing their burden across the population. Using age-specific
+            prevalence data sourced from the National Family Health Survey (NFHS-5, 2019-21) for 
+            the age group 15-49 years and the Longitudinal Aging Study in India (LASI Wave-1, 2018) for 
+            individuals aged 50 and above, projections have been made to estimate the total hypertensive and 
+            diabetic populations across various years <br>
+            In 2021, approximately 8.67 million people aged 15 and above were afflicted with hypertension, a 
+            number estimated to rise to 10.8 million in the year 2036. Among those aged 50 and above, females
+            are anticipated to outnumber males in hypertension prevalence. Similarly, in 2021, 3.97 million people 
+            aged 15 to 49 had diabetes, with this number projected to increase to 4.10 million by 2036. 
+            Non-communicable diseases (NCDs), such as hypertension and diabetes, are lifelong conditions that 
+            negatively impact quality of life. As Odisha continues to struggle with child malnutrition and anaemia, 
+            the increasing prevalence of NCDs will further increase the economic burden on the state. 
+            Strengthening the health system and designing interventions, especially in primary care setting, 
+            are essential to address the increasing prevalence of NCD challenge in Odisha. Furthermore, the 
+            gradual decline in the share of the 0 to 4-year population in the total population will free up 
+            resources and manpower previously used to combat childhood illness and deaths. This can now be 
+            redirected to support the elderly population.
+        </p>
+        <h5 class = "chart-title" style="text-align: left; font-size: 1.1rem; margin-left: 24%; margin-bottom: 1%;">
+            No. of Hypertension and Diabetes Patients in Odisha by 2036 (in millions)
+        </h5>
+        <!--Flourish Item-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/23842439">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/23842439/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+        <style>
+            .flourish-embed-container {
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #f8fafc;
+            padding: 0;
+            
+            overflow: hidden;
+            }
+            .flourish-embed {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #fff;
+            border-radius: 12px;
+            border: none;
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+        </style>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        
+        <p style="text-align: left; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%; margin-left: 24%;">
+            Source: The prevalence rate in the past surveys (for people aged 15-49 years- NFHS-5 & for 
+            people aged above 49 years- LASI wave-1) has<br> been multiplied by the projected population 
+            figure of the DIU, CYSD to get the size of healthcare requirements.<br>
+            * It has been assumed that the prevalence of Hypertension & Diabetes will remain the same 
+            over the period.
+
+        </p>
+        <p class="para">
+            The elderly population in Odisha faces a significant burden of non-communicable diseases (NCDs), 
+            similar to trends seen globally and across India. The most prevalent health issue among Odisha’s 
+            elderly is hypertension, with a substantial proportion of them showing pre-hypertension (41.6%) 
+            compared to the national average (39.3%). While the prevalence of high blood pressure (30.8%) is 
+            lower than the national figure (36.1%), a sizable percentage of Odisha’s elderly also suffer from 
+            cardiovascular diseases (CVDs), which rise with age. Gastrointestinal and skin disorders are also 
+            more common in Odisha’s elderly population than the national average, indicating gaps in medical care 
+            and access. Chronic bone and joint disorders, such as arthritis (16.7%), rheumatism (1.8%), and 
+            osteoporosis (0.3%), also significantly impact the elderly in the state, though the overall prevalence
+            is slightly lower than the national average.
+        </p>
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>

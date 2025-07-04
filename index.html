@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odisha Data Portal</title>
+    <link rel="stylesheet" href="css/styles.css">    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lottie-web@5/player/lottie.min.css">
+    <style>
+        body { margin: 0; padding: 0; }
+    </style>
+</head>
+<body> 
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo"> 
+            Odisha Data Portal
+        </div>        
+    </header>   
+    <!-- Banner Section - Full Width -->
+    <hr style="border: 0; height: 1px; background: #f0f0f0; margin: 0;">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="main-content">        <!-- Navigation Bar -->
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+            </ul>
+        </nav>   
+        <div style="background-color: #ffffff;">
+        <div style="width: 90%; max-width: 860px; margin: 0 auto; padding: 0; display: block;">
+            <img src="assets/images/mainbanner.gif" alt="Odisha Data Portal Banner" style="width: 100%; height: auto; display: block; margin: 0; padding: 0;">
+        </div>
+        </div>
+        <hr style="color: #eaeaeb; background: #eaeaeb; height: 2px; border: none;">
+        <!-- Main Content -->
+        <main class="home-content">
+            <!-- Latest News Section -->
+            <section class="news-section">
+                <h2 class="section-title">Updates</h2>
+                <div class="news-grid">
+                    <article class="news-card animate-card">
+                        <a href="container/Demography/poptre.html"><img src="assets/images/Pop Trends.png" alt="Population Survey" class="news-thumbnail"></a>
+                        <div class="news-content">
+                            <div class = "card-title"><a href="demography.html" class="card-title">Demography</a></div>
+                            <div class="news-date">June 23, 2025</div>
+                            <h3 class="news-title"><a href="container/Demography/poptre.html" class="news-title">Odisha’s Slowing Population Growth: A Quiet Transition</a></h3>
+                            <p class="news-abstract"><a href="container/Demography/poptre.html" class="news-abstract">Odisha’s population growth has slowed over time, reflecting lower fertility and mortality. Yet, it’s expected to rise further due to ....</a></p>
+                            <a href="container/Demography/poptre.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="news-card animate-card">
+                        <a href="container/Health/ncds.html"><img src="assets/images/NCDs.png" alt="Health Report" class="news-thumbnail"></a>
+                        <div class="news-content">
+                            <div class = "card-title"><a href="health.html" class="card-title">Health</a></div>
+                            <div class="news-date">June 24, 2025</div>
+                            <h3 class="news-title"><a href="container/Health/ncds.html" class="news-title">Hypertension and Diabetes on the Rise in the state</a></h3>
+                            <p class="news-abstract"><a href="container/Health/ncds.html" class="news-abstract">Odisha faces a growing health challenge as non-communicable diseases like hypertension and diabetes rise alongside an ....</a></p>
+                            <a href="container/Health/ncds.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="news-card animate-card">
+                        <a href="container/Education/compl.html"><img src="assets/images/CompEdu.png" alt="Education Report" class="news-thumbnail"></a>
+                        <div class="news-content">
+                            <div class = "card-title"><a href="education.html" class="card-title">Education</a></div>
+                            <div class="news-date">June 24, 2025</div>
+                            <h3 class="news-title"><a href="container/Education/compl.html" class="news-title">Odisha’s Adult Literacy Challenge in Demographic Shift</a></h3>
+                            <p class="news-abstract"><a href="container/Education/compl.html" class="news-abstract">Despite near-universal primary education for children, Odisha struggles with adult illiteracy—especially among those 30+, highlighting ....</a></p>
+                            <a href="container/Education/compl.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="news-card animate-card">
+                        <a href="#"><img src="assets/images/emp3.png" alt="Education Report" class="news-thumbnail" style = "object-fit: fill;"></a>
+                        <div class="news-content">
+                            <div class = "card-title"><a href="employment.html" class="card-title">Employment</a></div>
+                            <div class="news-date">June 25, 2025</div>
+                            <h3 class="news-title"><a href="#" class="news-title">High Aspirations, No Jobs: Odisha’s Youth Crisis</a></h3>
+                            <p class="news-abstract"><a href="#" class="news-abstract">Youth in Odisha are facing a troubling rise in unemployment, with rates three times higher than the working-age population despite ....</a></p>
+                            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="news-card animate-card">
+                        <a href="container/Migration/intermig.html"><img src="assets/images/migreas.png" alt="Education Report" class="news-thumbnail"></a>
+                        <div class="news-content">
+                            <div class = "card-title"><a href="migration.html" class="card-title">Migration & Urbanization</a></div>
+                            <div class="news-date">June 24, 2025</div>
+                            <h3 class="news-title"><a href="container/Migration/intermig.html" class="news-title">Changing Patterns of Inter-State Migration to Odisha</a></h3>
+                            <p class="news-abstract"><a href="container/Migration/intermig.html" class="news-abstract">PLFS 2020–21 shows a notable rise in return migration to Odisha’s Southern and Coastal regions, with just 30.8% of male in-migrants ....</a></p>
+                            <a href="container/Migration/intermig.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="news-card animate-card">
+                        <a href="#"><img src="assets/images/age4.png" alt="Ageing Report" class="news-thumbnail"></a>
+                        <div class="news-content">
+                            <div class = "card-title"><a href="ageing.html" class="card-title">Ageing</a></div>
+                            <div class="news-date">June 24, 2025</div>
+                            <h3 class="news-title"><a href="container/Ageing/eldhealth.html" class="news-title">Health Challenges Faced by the Elderly in Odisha</a></h3>
+                            <p class="news-abstract"><a href="container/Ageing/eldhealth.html" class="news-abstract">Older people in Odisha are dealing with many health problems like chronic diseases, poor nutrition, and mental health issues ....</a></p>
+                            <a href="container/Ageing/eldhealth.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            
+        </main>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards and news items
+        gsap.from('.news-card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out',
+            scrollTrigger: {
+                trigger: '.news-section',
+                start: 'top 80%'
+            }
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+
+</body>
+</html>

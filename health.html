@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health - Odisha Data Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo"> 
+            Odisha Data Portal
+        </div>        
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="health.html" class="active"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="education.html"><i class="fas fa-graduation-cap"></i>Education</a></li>
+                <li><a href="employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style = "align-items: center; text-align: left; margin-left: 24%;">
+            Health
+        </h1>
+        <p class = "para" style="margin-left: 24%; width: 49rem;">
+            Odisha's demographic transition reveals regional disparities, with population growth driven 
+            by increased longevity, resulting in an older median age. The shrinking working-age population 
+            and rising age dependency ratio are expected to reduce the state's demographic dividend by 2026, 
+            creating financial and administrative challenges. Approximately 80% of Odisha's population 
+            resides in rural areas and relies on primary healthcare services. With a significant 23% 
+            Scheduled Tribe and 17% Scheduled Caste populations, Odisha is rich in demographic, cultural, 
+            linguistic, and socio-economic diversity. Despite recent improvements, the diversity coupled 
+            with existing health sector challenges complicates efforts to provide tailored healthcare across 
+            varied geographies and needs. <br>
+            This chapter examines the health and nutrition concerns arising from the evolving demographic 
+            transition, as well as the pre-existing challenges in Odisha. It also discusses the preparedness
+            required for a healthy and productive Odisha by 2036.
+        </p>
+        <!-- Example: -->
+        <section class="theme-cards">
+            <!-- Card 1 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/ncds.html" class="theme-link" style="color: black;">
+                            Hypertension and Diabetes on the Rise: Odisha’s Cross-Generational Health Crisis
+                        </a></h3>
+                        <p><a href="container/Health/ncds.html" class="theme-text">
+                            Odisha faces a growing health challenge as non-communicable diseases like 
+                            hypertension and diabetes rise alongside an aging population. By 2036, over 
+                            10.8 million people may have hypertension, and over 4.1 million may have 
+                            diabetes. These chronic conditions affect both elderly and younger adults, 
+                            straining healthcare resources.
+                        </a></p>
+                        <a href="container/Health/ncds.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Health/ncds.html">
+                        <img src="assets/images/NCDs.png" alt="Population Trends" class="card-image">
+                    </a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/imr.html" class="theme-link" style="color: black;">
+                            Below Replacement, But Not Beyond Risk: The Silent Crisis of Child Mortality in Odisha
+                        </a></h3>
+                        <p><a href="container/Health/imr.html" class="theme-text">
+                            Though Odisha has achieved replacement-level fertility, child mortality and 
+                            nutrition gaps remain, especially in rural and tribal areas. These reflect persistent 
+                            issues in health and service delivery. Improving child health systems is vital to harness 
+                            the demographic dividend.
+                        </p>
+                        <a href="container/Health/imr.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Health/imr.html">
+                        <img src="assets/images/IMR & U5MR.png" alt="Population Trends" class="card-image">
+                    </a>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/nutri.html" class="theme-link" style="color: black;">
+                            One-Third of Odisha’s Children Battling Malnutrition: 
+                            A Dual Burden of Deficiency and Excess
+                        </a></h3>
+                        <p><a href="container/Health/nutri.html" class="theme-text">
+                            While undernutrition among children under five has declined in Odisha, 
+                            anaemia and childhood overweight are rising, creating a double burden of malnutrition. 
+                            District-level disparities persist, threatening health equity and long-term human 
+                            development.
+                        </a></p>
+                        <a href="container/Health/nutri.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Health/nutri.html"><img src="assets/images/Nutri.png" alt="Population Trends" class="card-image"></a>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/contra.html" class="theme-link" style="color: black;">
+                            Changing Populations, Unchanged Rights? SRHR in Odisha Today
+                        </a></h3>
+                        <p><a href="container/Health/contra.html" class="theme-text">
+                            Contraceptive use in Odisha has risen (practice: 42%→62%, usage: 57%→74%), 
+                            but inequalities by caste, education, and wealth persist. Younger, educated 
+                            women show limited agency, reflecting hidden social barriers. 
+                            With a shrinking youth population post-2021, youth SRHR may be sidelined, 
+                            risking future health outcomes.
+                        </a></p>
+                        <a href="container/Health/contra.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Health/contra.html">
+                        <img src="assets/images/Wom_Contr_Use.png" alt="Population Trends" class="card-image">
+                    </a>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/maternal.html" class="theme-link" style="color: black;">
+                            Inequality in the Womb: Maternal Health Disparities in Odisha
+                        </a></h3>
+                        <p><a href="container/Health/maternal.html" class="theme-text">
+                            Odisha faces serious maternal health challenges, with a high Maternal Mortality Ratio, 
+                            especially among tribal and rural women. Low antenatal care coverage and early pregnancies 
+                            worsen risks, particularly in districts like Mayurbhanj. Nearly 24% of girls with no 
+                            schooling begin childbearing early, compared to just 4.6% among the well-educated.
+                        </a></p>
+                        <a href="container/Health/maternal.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/addic.html" class="theme-link" style="color: black;">
+                            Addiction and Abuse: Undermining Odisha’s Human Capital
+                        </a></h3>
+                        <p><a href="container/Health/addic.html" class="theme-text">
+                            Tobacco and alcohol use remain alarmingly high in Odisha, with growing health and social 
+                            costs. Over 50% of men and 26% of women use tobacco, far above national levels, 
+                            contributing to a rising toll of oral cancer. Simultaneously, substance abuse fuels 
+                            domestic violence, affecting nearly 1 in 3 women. These issues hinder women’s participation 
+                            in the workforce, weaken family well-being, and erode the state’s potential to harness 
+                            its demographic dividend.
+                        </a></p>
+                        <a href="container/Health/addic.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Health/dbm.html" class="theme-link" style="color: black;">
+                            Odisha’s Double Burden of Malnutrition: Nutritional Challenges Across the Life Course
+                        </a></h3>
+                        <p><a href="container/Health/dbm.html" class="theme-text">
+                            Odisha is facing a dual nutritional crisis marked by persistent undernutrition and 
+                            rising obesity, reflecting the broader double burden of malnutrition. While underweight 
+                            prevalence is declining, anaemia, especially among women, remains alarmingly high. 
+                            Concurrently, overweight and obesity are rising among adults, mirroring demographic shifts. 
+                            Among the elderly, Odisha records one of the highest rates of undernutrition in India, 
+                            signalling a lifelong continuity of poor nutrition.
+                        </a></p>
+                        <a href="container/Health/dbm.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+</body>
+</html>

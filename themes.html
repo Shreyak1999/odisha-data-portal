@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Themes - Odisha Data Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo"> 
+            Odisha Data Portal
+        </div>        
+    </header>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="themes.html" class="active"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="health.html"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="education.html"><i class="fas fa-graduation-cap"></i>Education</a></li>
+                <li><a href="employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="themes.html" class="active"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style = "text-align: center;">Data Themes</h1>
+        <section class="themes-cards-grid">
+            <div class="theme-card animate-card">
+                <div class="theme-card-icon">
+                    <i class="fas fa-users fa-3x"></i>
+                </div>
+                <h3>Demography</h3>
+                <p>Explore demographic data including population distribution, age structure, and growth trends across Odisha.</p>
+                <a href="demography.html" class="theme-link">View Details →</a>
+            </div>
+
+            <div class="theme-card animate-card">
+                <div class="theme-card-icon">
+                    <i class="fas fa-heartbeat fa-3x"></i>
+                </div>
+                <h3>Health</h3>
+                <p>Access comprehensive health statistics, healthcare infrastructure data, and public health indicators.</p>
+                <a href="health.html" class="theme-link">View Details →</a>
+            </div>
+
+            <div class="theme-card animate-card">
+                <div class="theme-card-icon">
+                    <i class="fas fa-graduation-cap fa-3x"></i>
+                </div>
+                <h3>Education</h3>
+                <p>Find data on literacy rates, school enrollment, educational facilities, and academic performance.</p>
+                <a href="education.html" class="theme-link">View Details →</a>
+            </div>
+
+            <div class="theme-card animate-card">
+                <div class="theme-card-icon">
+                    <i class="fas fa-briefcase fa-3x"></i>
+                </div>
+                <h3>Employment</h3>
+                <p>Access data on workforce participation, employment sectors, and economic indicators.</p>
+                <a href="employment.html" class="theme-link">View Details →</a>
+            </div>
+
+            <div class="theme-card animate-card">
+                <div class="theme-card-icon">
+                    <i class="fas fa-city fa-3x"></i>
+                </div>
+                <h3>Migration & Urbanization</h3>
+                <p>Study patterns of population movement, urban growth, and development metrics.</p>
+                <a href="migration.html" class="theme-link">View Details →</a>
+            </div>
+            
+
+            <div class="theme-card animate-card">
+                <div class="theme-card-icon">
+                    <i class="fas fa-hourglass-half fa-3x"></i>
+                </div>
+                <h3>Ageing</h3>
+                <p>Analyze trends in population ageing, elderly care facilities, and related social indicators.</p>
+                <a href="ageing.html" class="theme-link">View Details →</a>
+            </div>
+
+            
+
+            
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out',
+            scrollTrigger: {
+                trigger: '.theme-cards',
+                start: 'top 80%'
+            }
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labor Force Transition Trends</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html" class="active"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            Labour in Transition: Navigating Odisha’s Chang-<br>ing Demographic Landscape
+        </h1>
+        <p class="para">
+            Odisha is undergoing a demographic transition marked by a declining proportion of children (0-15 years) and a growing 
+            share of the elderly population. Although the working-age group (15-59 years) currently constitutes the majority—over 
+            60%—this segment is projected to shrink gradually after 2026, signalling future challenges for the state's labour force 
+            and economic support systems.
+            <br>
+            Odisha’s rising working-age population (15–59 years) in recent decades has created a window of demographic dividend, 
+            offering the potential for economic growth if effectively harnessed. However, with declining fertility and a steadily 
+            increasing elderly population (60+), the state faces an impending shrinkage in new labour market entrants, risking 
+            slower economic momentum. This demographic shift poses challenges, particularly in labour-intensive sectors like 
+            agriculture and construction, compounded by a predominantly informal workforce and low rural female participation. 
+            As the population ages, younger workers may bear a dual burden of caring for both children and the elderly, while 
+            demand for healthcare and social protection is expected to grow, straining public resources. 
+            
+        </p>
+        <h5 class = "chart-title" style="text-align: left; font-size: 1.1rem; margin-left: 24%; margin-bottom: 1%;">
+            Trends in Share of Working Age Population (Age 15-59) in Total Population, Odisha
+        </h5>
+        <!-- Flourish Item -->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/23930160">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/23930160/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+
+            <p style="text-align: center; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%;">
+            Source: Census of India (2011); Population Projection for Odisha using Bayesian Approach, DIU, 2012-36<br>
+            </p>
+        <style>
+            .flourish-embed-container {
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #f8fafc;
+            padding: 0;
+            
+            overflow: hidden;
+            }
+            .flourish-embed {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #fff;
+            border-radius: 12px;
+            border: none;
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+        </style>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+
+        
+
+        </p>
+        
+        <h4 class="para">
+            Impact of a Youthful Demographic on Job Creation and Economic Growth
+        </h4>
+
+        <p class="para">
+            Odisha’s youthful demographic has historically played a pivotal role in driving economic growth, particularly 
+            by providing labour to agriculture and small-scale industries. However, with a demographic shift leading to a 
+            gradual decline in the 15–29 age group, the state faces the challenge of sustaining its growth momentum. A 
+            shrinking youth cohort may slow expansion in labour-intensive sectors, but it also presents an opportunity to 
+            boost productivity by transitioning towards knowledge- and capital-intensive industries.
+            <br>
+            Emerging sectors like the digital economy, green jobs, and healthcare offer significant employment potential. 
+            The digital sector can absorb youth in areas such as software development, data analytics, and e-commerce, while the 
+            growing focus on environmental sustainability is opening up new roles in renewable energy and eco-friendly infrastructure. 
+            Simultaneously, Odisha's ageing population will increase the demand for skilled healthcare professionals, making health 
+            and caregiving sectors vital for future employment.
+            <br>
+            To harness these opportunities, Odisha must realign its employment strategy by investing in education, skilling, and 
+            modern sectors less reliant on a large young workforce. A forward-looking approach will ensure an adaptable and 
+            resilient labour market that supports both economic growth and social well-being.
+        </p>
+
+        <h4 class="para">
+            Implications of an Aging Population on Labour Markets
+        </h4>
+
+        <p class="para">
+            Odisha’s ageing population poses growing challenges for its labour market, especially with a declining share of young 
+            workers (15–29 years). This shift could lead to labour shortages, higher wage pressures, and increased costs for businesses. 
+            As the workforce ages, skill mismatches may widen, making it crucial to invest in continuous education and re-skilling to 
+            keep older workers aligned with evolving industry needs, particularly in sectors like technology, manufacturing, and healthcare.
+            <br>
+            However, this demographic shift also presents an opportunity to tap into the "Silver Dividend." Experienced older workers 
+            can contribute significantly to roles that require institutional knowledge and specialized skills. By promoting flexible work 
+            options, phased retirement, and workplace wellness, Odisha can extend productive workforce participation. At the same time, 
+            adopting labour-saving technologies and fostering innovation will help maintain productivity. With the right strategies, 
+            Odisha can turn the challenges of ageing into a foundation for resilient and inclusive growth.
+        </p>
+
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>

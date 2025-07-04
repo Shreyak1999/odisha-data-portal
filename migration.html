@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migration & Urbanization - Odisha Data Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo"> 
+            Odisha Data Portal
+        </div>        
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="health.html"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="education.html"><i class="fas fa-graduation-cap"></i>Education</a></li>
+                <li><a href="employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="migration.html"  class="active"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style = "align-items: center; text-align: left; margin-left: 24%;">
+            Migration & Urbanization
+        </h1>
+        <p class = "para" style="margin-left: 24%; width: 49rem;">
+            Historically a labour-sending state, Odisha has seen an intensification of out-migration since the 1990s, profoundly reshaping its 
+            rural economy. In many southern districts, migration is now a key survival strategy, with remittances forming up to two-thirds of 
+            household income, intertwining agriculture with new livelihood patterns.
+        <br>Odisha's migration story is a complex blend of both distress-driven and aspirational movements, marked by a significant increase in 
+            seasonal circular outflows, famously highlighted during the mass reverse migration of COVID-19. As the state possesses a notable 
+            demographic dividend and surplus agrarian labour, understanding these dynamics is crucial. This platform aims to analyse current 
+            migration and urbanization trends, offering insights for policy to maximize economic benefits, potentially through new urban centres. 
+            Crucially, it addresses the urgent need for empirical research on these evolving patterns to inform effective, evidence-based 
+            regional development.
+        <h3 class = "para" style="margin-left: 24%; width: 49rem;">
+            How Different Data Sources Measure Migrants
+        </h3>
+            <p style="margin-left: 24%;">Migration is defined differently by various official sources. Here’s a simple breakdown:</p>
+            <ul class="para" style="margin-left: 24%; width: 49rem;">
+                <li style="margin-left: 3.5rem;"> 
+                    <b>Census of India</b>: A person is considered a migrant if they were born in a different place from where they 
+                                             are currently living, and have lived in the current place for at least six months.
+                </li>
+                <li style="margin-left: 3.5rem;">
+                    <b>National Statistical Office (NSO)</b>: A person is counted as a migrant if they have moved from another place and stayed 
+                    for over six months in the current location.
+                </li>
+            </ul>
+            <p class="para" style="margin-left: 24%; width: 49rem;">
+                While the Census is the main and most detailed source of migration data, its latest figures are from 2011, making it quite outdated. 
+                On the other hand, the PLFS (2020–21) provides more recent data but in less detail. Also, NSO and PLFS often report lower migration 
+                numbers than the Census, so their figures should be used carefully when comparing total numbers. Due to the lack of updated Census 
+                data, this study mainly uses PLFS 2020–21 to estimate the current number of migrants.
+            </p>
+        </p>
+        <!-- Example: -->
+        <section class="theme-cards">
+            <!-- Card 1 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/migrant.html" class="theme-link" style="color: black;">
+                            Odisha's Evolving Migration Landscape
+                        </a></h3>
+                        <p><a href="container/Migration/migrant.html" class="theme-text">
+                            The recent PLFS data indicates a higher rural migration rate and a decline in urban migration, 
+                            suggesting rural-driven movement and potential urban exclusion. 
+                        </a></p>
+                        <a href="container/Migration/migrant.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/migrant.html" class="theme-link">
+                        <img src="assets/images/MigrantShare.png" alt="Population Trends" class="card-image">
+                    </a>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/intmig.html" class="theme-link" style="color: black;">
+                            Odisha's Internal Migration Puzzle
+                        </a></h3>
+                        <p><a href="container/Migration/intmig.html" class="theme-text">
+                            While Odisha's migration is predominantly intra-state and rural-rural dominated, the data reveal a troubling trend 
+                            of decreasing rural-urban and urban-urban migration.
+                        </a></p>
+                        <a href="container/Migration/intmig.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/intermig.html" class="theme-link" style="color: black;">
+                            Changing Trends and Regional Patterns of Inter-State In-Migration to Odisha
+                        </a></h3>
+                        <p><a href="container/Migration/intermig.html" class="theme-text">
+                            PLFS 2020–21 reveals a striking shift in interstate in-migration to Odisha, particularly with a surge in return 
+                            migration to its Southern and Coastal regions. Only 30.8% of male in-migrants moved for employment, below the 
+                            National average.
+                        </a></p>
+                        <a href="container/Migration/intermig.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/intermig.html" class="theme-link">
+                        <img src="assets/images/migreas.png" alt="Population Trends" class="card-image">
+                    </a>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/retmig.html" class="theme-link" style="color: black;">
+                            A Shift Towards Return Migration
+                        </a></h3>
+                        <p><a href="container/Migration/retmig.html" class="theme-text">
+                            Odisha is witnessing a sharp rise in return migration, especially among young men, from urban destinations back 
+                            to rural roots, raising concerns for the state’s labour-surplus rural economy.
+                        </a></p>
+                        <a href="container/Migration/retmig.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/retmig.html" class="theme-link">
+                        <img src="assets/images/Retmig.png" alt="Population Trends" class="card-image">
+                    </a>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/outmig.html" class="theme-link" style="color: black;">
+                            Changing Patterns of Interstate Out-Migration from Odisha
+                        </a></h3>
+                        <p><a href="container/Migration/outmig.html" class="theme-text">
+                            Odisha’s long history of out-migration continues to evolve, with a notable 
+                            decline in rural-origin migration and a rise in selective, urban-based movement.                        
+                        </a></p>
+                        <a href="container/Migration/outmig.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/outmig.html">
+                        <img src="assets/images/Outmig.png" alt="Population Trends" class="card-image" style = "object-fit: cover;">
+                    </a> 
+                </div>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/charout.html" class="theme-link" style="color: black;">
+                            Characteristics of Out-Migrants from Odisha: Ageing, Urbanizing and Unequal
+                        </a></h3>
+                        <p><a href="container/Migration/charout.html" class="theme-text">
+                            Out-migration from Odisha is evolving, with a rise in urban-origin, older, 
+                            and more educated migrants alongside persistent rural distress-led movement. 
+                        </a></p>
+                        <a href="container/Migration/charout.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/charout.html">
+                        <img src="assets/images/Charout.png" alt="Population Trends" class="card-image" style = "object-fit: cover;">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/circmig.html" class="theme-link" style="color: black;">
+                            Short-Term Circular Migration from Odisha: Young, Rural, and Vulnerable
+                        </a></h3>
+                        <p><a href="container/Migration/circmig.html" class="theme-text">
+                            Short-term migration in Odisha is largely seasonal and rural, dominated by 
+                            young individuals from marginalized communities, and sustains itself through 
+                            precarious jobs in construction and manufacturing sectors across states.
+                        </a></p>
+                        <a href="container/Migration/circmig.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/stmig.html" class="theme-link" style="color: black;">
+                            Odisha’s Migration Turnaround: From Outflow to Inflow
+                        </a></h3>
+                        <p><a href="container/Migration/stmig.html" class="theme-text">
+                            Once predominantly an out-migrating state, Odisha recorded a positive net 
+                            in-migration rate in 2020–21, reflecting a major demographic shift.
+                        </a></p>
+                        <a href="container/Migration/stmig.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/stmig.html">
+                        <img src="assets/images/Stmig.png" alt="Population Trends" class="card-image" style = "min-width: 340px;">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="card animate-card">
+                <div class="card-content">
+                    <div class="card-text">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line fa-3x"></i>
+                        </div>
+                        <h3><a href="container/Migration/urban.html" class="theme-link" style="color: black;">
+                            Urbanisation in Odisha: Slow Growth, Uneven Development, and Emerging Challenges
+                        </a></h3>
+                        <p><a href="container/Migration/urban.html" class="theme-text">
+                            Odisha continues to experience low and uneven urbanisation, with urban growth concentrated in a few districts and 
+                            limited absorption of rural migrants. 
+                        </a></p>
+                        <a href="container/Migration/urban.html" class="theme-link">Explore Data →</a>
+                    </div>
+                    <a href="container/Migration/urban.html">
+                        <img src="assets/images/Urbanization.png" alt="Population Trends" class="card-image" style = "min-width: 340px;">
+                    </a>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+</body>
+</html>

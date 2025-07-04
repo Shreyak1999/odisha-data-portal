@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Nutrition</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <img src="assets/icons/logo.png" alt="Odisha Banner" class="header-logo">
+            Odisha Data Portal
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/icons/logo.png" alt="Odisha Data Portal Logo" class="sidebar-logo">
+            <h2>Odisha Data Portal</h2>
+            <button class="sidebar-close" aria-label="Close Sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-section">
+            <h3>Navigation</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+                <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+                <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Theme Categories</h3>
+            <ul class="sidebar-nav">
+                <li><a href="../../demography.html"><i class="fas fa-users"></i>Demography</a></li>
+                <li><a href="../../health.html" class="active"><i class="fas fa-heartbeat"></i>Health</a></li>
+                <li><a href="../../education.html"><i class="fas fa-graduation-cap"></i>Education</a>
+                </li>
+                <li><a href="../../employment.html"><i class="fas fa-briefcase"></i>Employment</a></li>
+                <li><a href="../../ageing.html"><i class="fas fa-hourglass-half"></i>Ageing</a></li>
+                <li><a href="../../migration.html"><i class="fas fa-city"></i>Migration & Urbanization</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Recent Updates</h3>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-file-alt"></i>Latest Reports</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i>New Visualizations</a></li>
+                <li><a href="#"><i class="fas fa-newspaper"></i>News & Events</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <button class="toggle-sidebar" aria-label="Toggle Sidebar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation Bar -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="../../index.html"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="../../themes.html"><i class="fas fa-th-large"></i>Themes</a></li>
+            <li><a href="../../repository.html"><i class="fas fa-database"></i>Repository</a></li>
+            <li><a href="../../contact.html"><i class="fas fa-envelope"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="themes-content">
+        <h1 class="page-title animate-fade-in" style="align-items: center; text-align: left; font-size: 2.1rem; margin-left: 24%;">
+            One-Third of Odisha’s Children Battling Mal-<br>nutrition: A Dual Burden of Deficiency and Excess
+        </h1>
+        <p class="para">
+            As per the fifth round of NFHS, there have been reductions in stunting (31%), wasting (18%), 
+            severe wasting (6%), and underweight (30%) among children under 5 compared to previous rounds 
+            (NFHS-3 and NFHS-4) in Odisha. However, the prevalence of anaemia (64%) and overweight (4%) among 
+            children has increased. While rates of wasting, severe wasting, and underweight are below national 
+            levels, the prevalence of overweight is slightly higher than the national average. <br>
+            There are significant variations in the nutritional metrics among the different districts of the state. 
+            Districts like Malkangiri, Nabarangpur, and Rayagada have displayed a high level of stunting 
+            (more than 44%) among the children, while Jagatsingpur, Puri, and Khurda have shown significantly lower 
+            levels. This nutritional difference among districts is also mirrored in the share of underweight 
+            children in the above districts. More than a quarter of the children Mayurbhanj, Subarnapur, Debagarh, 
+            Kandhamal, and Balangir have been observed to be wasted, with Debagarh, Kandhamal, and Balangir having 
+            the most share of severely wasted children. As mentioned above, the share of overweight children in the 
+            state has increased between the last two rounds of
+        </p>
+        <h5 class = "chart-title" style="text-align: left; font-size: 1.1rem; margin-left: 24%; margin-bottom: 1%;">
+            Nutritional Status of Children in Odisha & India (in %)
+        </h5>
+        <!--Flourish Item-->
+        <div class="flourish-embed flourish-chart" data-src="visualisation/23855834">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript><img src="https://public.flourish.studio/visualisation/23855834/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+        <style>
+            .flourish-embed-container {
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #f8fafc;
+            padding: 0;
+            
+            overflow: hidden;
+            }
+            .flourish-embed {
+            width: 100% !important;
+            height: 100% !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 24px rgba(0,90,158,0.2);
+            background: #fff;
+            border-radius: 12px;
+            border: none;
+            display: block;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+        </style>
+        <script src="https://public.flourish.studio/resources/embed.js"></script>
+        
+        <p style="text-align: left; font-size: 0.8rem; font-style: italic; color: #555; margin-bottom: 1%; margin-left: 24%;">
+            Source: NFHS-4,5
+
+        </p>
+        <p class="para">
+            NFHS. Dhenkanal had the largest increase, from 1.6% during NFHS-4 to 6.8% during NFHS-5. 
+            The highest incidence of overweight children was in Jagatsinghpur at 8.3%, which had increased from 
+            the earlier 5.5%. The prevalence of Anaemia has increased significantly in most of the districts of 
+            Odisha. The highest recorded prevalence of anaemia was in Malkangiri, Sundargarh, and Anugul 
+            (more than 70%), while the lowest prevalence was in Baleshwar, Nayagarh, and Puri. However, districts 
+            like Khurda and Cuttack had the highest growth of anaemic incidence between the last two rounds of 
+            NFHS, and districts like Bargarh and Sambalpur observed a significant decline in the prevalence of 
+            anaemia.<br>
+            The nutritional and health disparities in Odisha, as highlighted by the NFHS-5 data, indicate a complex 
+            future for the state's health outcomes. While progress has been made in reducing stunting, wasting, and 
+            underweight rates, the rising prevalence of anaemia and overweight children points to emerging health 
+            challenges. District-level variations in child malnutrition could widen health inequities across the 
+            state, especially with stunting remaining high in some tribal and rural districts like Malkangiri and 
+            Rayagada. The increasing incidence of anaemia and overweight children, particularly in districts such 
+            as Jagatsinghpur and Dhenkanal, suggests a shift toward a dual burden of malnutrition—undernutrition 
+            coexisting with overnutrition. This trend, if not addressed, may strain healthcare resources, increase 
+            non-communicable diseases, and hinder the long-term economic and social development of Odisha.
+        </p>
+
+    </main>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Enhanced animations for cards
+        gsap.from('.card', {
+            opacity: 0,
+            y: 50,
+            duration: 0.8,
+            stagger: 0.2,
+            ease: 'power2.out'
+        });
+
+        // Animate icons on hover
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1.1,
+                    y: -5,
+                    duration: 0.3
+                });
+            });
+
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card.querySelector('.card-icon'), {
+                    scale: 1,
+                    y: 0,
+                    duration: 0.3
+                });
+            });
+        });
+    </script>
+
+<footer>
+    <p class="footer">&copy Odisha Data Portal</p>
+</footer>
+</body>
+
+</html>
