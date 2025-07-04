@@ -251,7 +251,8 @@ header {
 .card-icon {
     color: #1976d2;
     margin-bottom: 1rem;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease;
+    transform-origin: left center;
 }
 
 .card h3 {
